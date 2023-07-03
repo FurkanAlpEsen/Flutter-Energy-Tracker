@@ -1,3 +1,4 @@
+import 'package:energypocket/screens/production.dart';
 import 'package:energypocket/screens/profile.dart';
 import 'package:energypocket/screens/realtime.dart';
 import 'package:energypocket/screens/settings.dart';
@@ -25,7 +26,10 @@ class _HomePageState extends State<HomePage> {
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
-            colors: [Color.fromARGB(255, 27, 90, 57), Color.fromARGB(255, 25, 140, 146).withOpacity(0.2)],
+            colors: [
+              Color.fromARGB(255, 27, 90, 57),
+              Color.fromARGB(255, 25, 140, 146).withOpacity(0.2)
+            ],
           ),
         ),
       ),
@@ -52,7 +56,7 @@ class _HomePageState extends State<HomePage> {
           backgroundColor: Color.fromARGB(255, 70, 171, 136).withOpacity(0.6),
           title: Center(
               child: Text(
-            'Active Persons',
+            'Active Workers',
             style: GoogleFonts.roboto(
                 fontWeight: FontWeight.w400,
                 color: Color.fromARGB(255, 59, 38, 103)),
@@ -114,7 +118,10 @@ class _HomePageState extends State<HomePage> {
                           fontWeight: FontWeight.w700)),
                 ),
                 ListTile(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => ProductionVolumePage()));
+                  },
                   leading: Icon(Icons.energy_savings_leaf, color: Colors.black),
                   title: Text('Production Volume',
                       style: TextStyle(

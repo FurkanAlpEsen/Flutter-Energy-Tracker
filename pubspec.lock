@@ -341,14 +341,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.0"
-  shrink_sidemenu:
-    dependency: "direct main"
-    description:
-      name: shrink_sidemenu
-      sha256: "556436717d004ed4573522dcc8772da50f4b7ed3b3a238c0c0e11bc265a0c95a"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.0+2-null-safety"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -386,6 +378,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
+  syncfusion_flutter_charts:
+    dependency: "direct main"
+    description:
+      name: syncfusion_flutter_charts
+      sha256: "2cf092e1b09a9c75d2dc4a6d22f5b2d642010b8c3ae0f8a65272715af0ebe211"
+      url: "https://pub.dev"
+    source: hosted
+    version: "22.1.36"
   syncfusion_flutter_core:
     dependency: transitive
     description:

@@ -35,3 +35,14 @@ This project is a energy producing and comsuming tracking application for the co
     <img src="./screenshots/home2.png" width="250" height="500"/>
 </p>
 
+4- Dashboard Screen
+
+<p align="left">
+    <img src="./screenshots/dashboard.png" width="250" height="500"/>
+</p>
+
+5- Production (Tanks) Volume Screen
+
+<p align="left">
+    <img src="./screenshots/production.png" width="250" height="500"/>
+</p>
