@@ -92,7 +92,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     clipBehavior: Clip.antiAlias,
                     decoration: BoxDecoration(
-                      color: Colors.black26,
+                      color: Color.fromARGB(66, 228, 227, 227),
                       shape: BoxShape.circle,
                     ),
                     child: Icon(

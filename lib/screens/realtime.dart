@@ -39,28 +39,28 @@ class _RealTimePageState extends State<RealTimePage> {
         GridColumn(
           width: 150,
            allowSorting: true,
-            columnName: 'isim',
+            columnName: 'name',
             label: Container(
                 padding: const EdgeInsets.all(8.0),
                 alignment: Alignment.center,
-                child: const Text('İsim'))),
+                child: const Text('Name'))),
         GridColumn(
           width: 150,
            allowSorting: true,
-            columnName: 'görev',
+            columnName: 'assignment',
             label: Container(
                 padding: const EdgeInsets.all(8.0),
                 alignment: Alignment.center,
-                child: const Text('Görev',
+                child: const Text('Assignment',
                     overflow: TextOverflow.ellipsis))),
         GridColumn(
           width: 150,
           allowSorting: true,
-            columnName: 'giriş saati',
+            columnName: 'hour',
             label: Container(
                 padding: const EdgeInsets.all(8.0),
                 alignment: Alignment.center,
-                child: const Text('Giriş Saati'))),
+                child: const Text('Hour'))),
       ],
         selectionMode: SelectionMode.single,
       navigationMode: GridNavigationMode.cell,
@@ -69,16 +69,16 @@ class _RealTimePageState extends State<RealTimePage> {
 
   List<Employee> getEmployeeData() {
     return [
-      Employee(10001, 'Hasan', 'Şef', '12:00'),
-      Employee(10002, 'Nil', 'Proje Yöneticisi', '10:30'),
-      Employee(10003, 'Alara', 'Konrol Şefi', '10:00'),
-      Employee(10004, 'Murat', 'İşçi', '08:00'),
-      Employee(10005, 'Ali', 'İşçi', '08:00'),
-      Employee(10006, 'Keskin', 'İletim Takipçisi', '07:30'),
-      Employee(10007, 'Beyza', 'İşçi', '08:00'),
-      Employee(10008, 'Celal', 'Kontrol Şefi', '06:45'),
-      Employee(10009, 'Sefa', 'Yetkili', '13:45'),
-      Employee(10010, 'Sezgin', 'Denetleyici', '15:45')
+      Employee(10001, 'Jack', 'Manager', '12:00'),
+      Employee(10002, 'Perry', 'Project Lead', '10:30'),
+      Employee(10003, 'Lara', 'Developer', '10:00'),
+      Employee(10004, 'Ellis', 'Developer', '08:00'),
+      Employee(10005, 'Adams', 'Developer', '08:00'),
+      Employee(10006, 'Owens', 'QA Testing', '07:30'),
+      Employee(10007, 'Balnc', 'UX Designer', '06:45'),
+      Employee(10008, 'Steve', 'Support', '13:45'),
+      Employee(10009, 'Linda', 'Administrator', '15:45'),
+      Employee(10010, 'Michael', 'Sales Associate', '08:00')
     ];
   }
 }

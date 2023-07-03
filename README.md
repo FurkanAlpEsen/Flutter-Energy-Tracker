@@ -1,16 +1,37 @@
 # energypocket
 
-A new Flutter project.
+Its a Flutter mobile app project. Not finished yet!
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a energy producing and comsuming tracking application for the companies.
 
-A few resources to get you started if this is your first Flutter project:
+## Usage
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Its will be add...
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ScreenShots (not finished!)
+
+1- Splash Screen
+
+<p align="left">
+    <img src="./screenshots/splash.png" width="250" height="500"/>
+</p>
+
+2- Menu
+
+<p align="left">
+    <img src="./screenshots/menu.png" width="250" height="500"/>
+</p>
+
+3- Home Screens
+
+<p align="left">
+    <img src="./screenshots/home.png" width="250" height="500"/>
+</p>
+
+
+<p align="left">
+    <img src="./screenshots/home2.png" width="250" height="500"/>
+</p>
+
