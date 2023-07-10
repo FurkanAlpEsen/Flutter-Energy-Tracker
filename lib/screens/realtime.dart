@@ -29,40 +29,42 @@ class _RealTimePageState extends State<RealTimePage> {
       columnWidthMode: ColumnWidthMode.auto,
       columns: <GridColumn>[
         GridColumn(
-          width: 150,
-           allowSorting: true,
+            width: 150,
+            allowSorting: true,
             columnName: 'id',
             label: Container(
                 padding: const EdgeInsets.all(8.0),
                 alignment: Alignment.center,
-                child: const Text('ID',))),
+                child: const Text(
+                  'ID',
+                ))),
         GridColumn(
-          width: 150,
-           allowSorting: true,
+            width: 150,
+            allowSorting: true,
             columnName: 'name',
             label: Container(
                 padding: const EdgeInsets.all(8.0),
                 alignment: Alignment.center,
                 child: const Text('Name'))),
         GridColumn(
-          width: 150,
-           allowSorting: true,
+            width: 150,
+            allowSorting: true,
             columnName: 'assignment',
             label: Container(
                 padding: const EdgeInsets.all(8.0),
                 alignment: Alignment.center,
-                child: const Text('Assignment',
-                    overflow: TextOverflow.ellipsis))),
+                child:
+                    const Text('Assignment', overflow: TextOverflow.ellipsis))),
         GridColumn(
-          width: 150,
-          allowSorting: true,
+            width: 150,
+            allowSorting: true,
             columnName: 'hour',
             label: Container(
                 padding: const EdgeInsets.all(8.0),
                 alignment: Alignment.center,
                 child: const Text('Hour'))),
       ],
-        selectionMode: SelectionMode.single,
+      selectionMode: SelectionMode.single,
       navigationMode: GridNavigationMode.cell,
     );
   }
@@ -74,7 +76,7 @@ class _RealTimePageState extends State<RealTimePage> {
       Employee(10003, 'Lara', 'Developer', '10:00'),
       Employee(10004, 'Ellis', 'Developer', '08:00'),
       Employee(10005, 'Adams', 'Developer', '08:00'),
-      Employee(10006, 'Owens', 'QA Testing', '07:30'),
+      Employee(10006, 'Bill', 'QA Testing', '07:30'),
       Employee(10007, 'Balnc', 'UX Designer', '06:45'),
       Employee(10008, 'Steve', 'Support', '13:45'),
       Employee(10009, 'Linda', 'Administrator', '15:45'),
